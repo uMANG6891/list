@@ -19,7 +19,7 @@ public class MovieAdapter extends BaseAdapter {
 
     Context context;
     public MovieAdapter(Context context, List<Movie> objects) {
-        super(context,R.layout.list_row, objects);
+        super(context,0, objects);
         this.context=context;
     }
 
